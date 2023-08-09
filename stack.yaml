@@ -33,3 +33,14 @@ spec:
     targetPort: 80
   selector:
     app: nginx
+---
+kind: Secret
+apiVersion: v1
+metadata:
+  name: example-secret
+  annotations:
+    avp.kubernetes.io/path: "ccoe-lab/db-dummy-psql"
+type: Opaque
+data:
+  username: USERNAME
+  password: PASSWORD
