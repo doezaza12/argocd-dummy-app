@@ -40,7 +40,7 @@ apiVersion: v1
 metadata:
   name: example-secret
   annotations:
-    avp.kubernetes.io/path: "ccoe-lab/db-dummy-psql"
+    avp.kubernetes.io/path: "ccoe-lab/data/db-dummy-psql"
 type: Opaque
 data:
   username: USERNAME
