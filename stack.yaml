@@ -45,6 +45,6 @@ metadata:
   annotations:
     avp.kubernetes.io/path: "ccoe-lab/data/db-dummy-psql"
 type: Opaque
-data:
+stringData:
   username: <USERNAME>
   password: <PASSWORD>
